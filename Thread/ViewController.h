@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+#import "Print.h"
+#import "Count.h"
+#import "metods.h"
+
 @interface ViewController : UIViewController
 
+{
+    NSOperationQueue *operationQueue;
+}
 
 @end
 
